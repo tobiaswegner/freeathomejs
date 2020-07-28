@@ -1,0 +1,36 @@
+{
+  "name": "freeathome",
+  "version": "0.1.3",
+  "description": "",
+  "keywords": [
+    "freeathome",
+    "free at home",
+    "rest",
+    "api"
+  ],
+  "homepage": "https://github.com/tobiaswegner/libfreeathome-js",
+  "license": "MIT",
+  "author": {
+    "name": "Tobias Wegner",
+    "url": "https://www.tobiaswegner.de"
+  },
+  "files": [
+    "js/index.js",
+    "js/index.d.ts"
+  ],
+  "main": "./js/index.js",
+  "types": "./js/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tobiaswegner/libfreeathome-js.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  }
+}
